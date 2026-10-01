@@ -12,7 +12,7 @@ st.title("Player Search")  # Render page title header with emoji
 @st.cache_data  # Decorate function to cache dataset loading in memory
 def load_data():  # Define function to read player data from CSV file
     # Adjust path if your CSV file is located elsewhere
-    df = pd.read_csv("fpl_player_statistics.csv")  # Read CSV file into a pandas DataFrame
+    df = pd.read_csv("fpl/fpl_player_statistics.csv")  # Read CSV file into a pandas DataFrame
     return df  # Return loaded DataFrame to caller
 
 df = load_data()  # Load data into df variable via cached loader function

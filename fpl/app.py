@@ -17,7 +17,7 @@ apply_styles()  # Apply the custom styles to the app
 @st.cache_data  # Decorate function to cache the loaded data in memory
 def load_data():  # Define function to load player data from CSV file
     # Read the CSV file into a DataFrame.
-    data = pd.read_csv("fpl_player_statistics.csv")  # Read CSV into a pandas DataFrame
+    data = pd.read_csv("fpl/fpl_player_statistics.csv")  # Read CSV into a pandas DataFrame
     # Return the DataFrame to the caller.
     return data  # Return the DataFrame
 

@@ -13,7 +13,7 @@ apply_styles()  # Execute the custom CSS styling rules for the application
 # Load the data
 @st.cache_data  # Decorate function to cache loaded data in memory for better performance
 def load_data():  # Define cached function to load the dataset
-    return pd.read_csv("fpl_player_statistics.csv")  # Read player statistics CSV and return as DataFrame
+    return pd.read_csv("fpl/fpl_player_statistics.csv")  # Read player statistics CSV and return as DataFrame
 
 
 df = load_data()  # Load the dataset into the df variable via cached function call

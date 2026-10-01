@@ -11,7 +11,7 @@ apply_styles()  # Apply custom CSS styles to the Streamlit app
 @st.cache_data  # Decorate function to cache dataset loading in memory
 def load_data():  # Define function to read player data from CSV file
     # Read the CSV file into a DataFrame.
-    data = pd.read_csv("fpl_player_statistics.csv") # load the dataset
+    data = pd.read_csv("fpl/fpl_player_statistics.csv") # load the dataset
     # Return the DataFrame to the caller.
     return data  # Return loaded DataFrame to caller
 
