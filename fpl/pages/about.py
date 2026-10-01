@@ -30,5 +30,5 @@ with col1:  # Enter context for first column
     st.header("Problem Statement") # Add a header for the problem statement section
     st.write("As an FPL player, I find that the official FPL website provides a lot of statistics, but it can be difficult to quickly compare players and find the information I am looking for. This app is designed to make that process easier by allowing FPL players to filter, compare, and visualize player statistics in one place. This helps users explore player performance without having to search through large amounts of data.")  # Render problem statement explanatory text
 with col2:  # Enter context for second column
-    image = Image.open("fpl_interface.png") # Open the image file for the FPL interface
+    image = Image.open("fpl/fpl_interface.png") # Open the image file for the FPL interface
     st.image(image, caption="*screenshot of the FPL interface when displaying player statistics*", width=400, use_container_width=False)  # Display image widget with specified caption, width, and container scaling parameters
